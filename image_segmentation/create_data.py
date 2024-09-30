@@ -8,9 +8,9 @@ import shutil
 from matplotlib import pyplot as plt
 import tensorflow as tf
 
-from TRIALS.cats_detection_hari.constants import START_DIR, IMAGES_DIR, MASKS_DIR, IMAGES_SIZE1, \
+from constants import START_DIR, IMAGES_DIR, MASKS_DIR, IMAGES_SIZE1, \
     IMAGES_SIZE2, CLASSES, BLOB, BLOB_SIZE, OG_SIZE1, OG_SIZE2
-from TRIALS.cats_detection_hari.util import display_images
+from util import display_images
 
 global image_counter
 image_counter = 1
